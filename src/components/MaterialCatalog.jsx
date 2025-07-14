@@ -58,13 +58,13 @@ const data = [
 const MaterialCatalog = () => {
   return (
     <div className='w-full'>
-      <div className='flex items-center justify-between'> 
-        <div className="flex w-[300px] mb-[16px]">
+      <div className='flex items-center justify-between mb-[16px]'> 
+        <div className="flex w-[300px]">
           <Input 
             placeholder="Search material" 
           />
         </div>
-        <div className='flex gap-3'>
+        <div className='flex items-center gap-3'>
           <Button>Import</Button>
           <Button>New Material Detail</Button>
         </div>

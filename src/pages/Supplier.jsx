@@ -10,7 +10,7 @@ const Supplier = () => {
     <div className="w-full">
       {/* Top Content */}
       <div className="flex items-center justify-between p-[16px]">
-        <div className="w-[40%] flex items-center justify-between">
+        <div className="w-[40%] flex items-center gap-5">
             <div className="flex items-center gap-3">
               <div className="w-[70px] h-[70px] border-black bg-gray-300/60">
               </div>
